@@ -137,6 +137,7 @@ h4 {
     font-size: 2ex;
     font-weight: 700;
     text-transform: uppercase;
+    margin: 3ex auto;
 }
 
 h5 {
@@ -261,7 +262,7 @@ h5 {
 
 .fa {
     color: #ddd;
-    padding-right: .5em;
+    padding-right: .3em;
 }
 
 .main-container time {
@@ -298,7 +299,7 @@ h5 {
 .main-container .footer--left-side img {
     width: 30%;
     display: block;
-    margin: 1.8em auto;
+    margin: 3em auto;
 }
 
 .main-container .footer--right-side {
@@ -309,12 +310,12 @@ h5 {
 .main-container .footer--right-side p {
     color: #aaa;
     margin-top: 1ex;
+    margin-bottom: 4.5ex;
 }
 
 .main-container h5 {
 }
 .main-container .footer--social-container {
-    margin-top: 2em;
     margin-bottom: 1.5em;
 }
 
