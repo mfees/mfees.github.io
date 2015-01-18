@@ -116,7 +116,7 @@ h2 {
     color: #333;
     font-family: 'Open Sans' sans-serif;
     font-size: 5ex;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 h3 {
@@ -158,7 +158,7 @@ h5 {
 
 .main-container {
     width: 80%;
-    margin: -4em auto;
+    margin: -5em auto;
     position: relative;
     z-index: 4;
 }
@@ -169,7 +169,7 @@ h5 {
     padding-right: 5em;
 }
 .sidebar-content .logo-container {
-    margin-bottom: 20px;
+    margin-bottom: 2em;
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
     box-sizing: content-box;
@@ -212,10 +212,26 @@ h5 {
 .main-container h3 {
 }
 .main-container .post-footer {
+    overflow: hidden;
+    margin: 3em auto;
 }
 .main-container .post-footer icon {
 }
 .main-container .post-footer a {
+}
+
+.post-footer .button-group {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.post-footer time {
+    font-size: 1.7ex;
+    color: #d5d5d5;
+    float: right;
+    display: block;
+    margin-top: 2ex;
 }
 
 .button-group li {
@@ -244,43 +260,59 @@ h5 {
 .main-container .bottom-button {
     background-color: #56AAC3;
     border-radius: .8ex;
-    padding: 1.5ex;
+    margin: 7em auto;
+    padding: 1.2ex;
 }
+
 .main-container .button-text {
+    font-family: 'Open Sans' sans-serif;
+    font-size: 1.7ex;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
     margin: 0;
 }
+
 .main-container footer {
     width: 80%;
     overflow: hidden;
     margin: 0 auto;
 }
+
 .main-container .footer--left-side {
     width: 20%;
     float: left;
 }
+
 .main-container .footer--left-side img {
     width: 30%;
     display: block;
     margin: 1.8em auto;
 }
+
 .main-container .footer--right-side {
     width: 80%;
     float: left;
 }
+
 .main-container .footer--right-side p {
     color: #aaa;
 }
+
 .main-container h5 {
 }
 .main-container .footer--social-container {
     margin-top: 2em;
     margin-bottom: 1.5em;
 }
+
 .main-container .footer--social-container icon {
 }
 .main-container .footer--social-container a {
     text-decoration: none;
 }
+
 .main-container .copyright {
 }
 .main-container .copyright p {
