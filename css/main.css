@@ -101,7 +101,8 @@ p {
     color: #666;
     font-family: 'PT Serif', serif;
     font-size: 1.8ex;
-    line-height: 3.6ex;
+    line-height: 3.5ex;
+    margin-bottom: 3ex;
 }
 
 h1 {
@@ -117,6 +118,7 @@ h2 {
     font-family: 'Open Sans' sans-serif;
     font-size: 5ex;
     font-weight: 700;
+    margin-bottom: 1ex;
 }
 
 h3 {
@@ -125,6 +127,7 @@ h3 {
     font-size: 1.8ex;
     line-height: 3.6ex;
     border-left: .3ex solid #e5e5e5;
+    margin: 3.7ex auto;
     padding-left: 2ex;
 }
 
@@ -149,7 +152,7 @@ h5 {
     background-image: url(http://lorempixel.com/1500/600/);
     background-position: 0 0;
     background-size: cover;
-    height: 28em;
+    height: 30em;
     width: 100%;
 }
 
@@ -157,8 +160,8 @@ h5 {
 }
 
 .main-container {
-    width: 80%;
-    margin: -5em auto;
+    width: 70%;
+    margin: -4.2em auto;
     position: relative;
     z-index: 4;
 }
@@ -166,8 +169,9 @@ h5 {
     width: 25%;
     float: left;
     box-sizing: border-box;
-    padding-right: 5em;
+    padding-right: 3.1em;
 }
+
 .sidebar-content .logo-container {
     margin-bottom: 2em;
     -webkit-box-sizing: content-box;
@@ -192,12 +196,15 @@ h5 {
 .main-container .search-bar h4 {
 }
 .main-container input {
+    width: 92%;
 }
 .main-container .post-area {
     width: 75%;
     float: left;
     box-sizing: border-box;
     margin-top: 6em;
+    padding-right: 4em;
+ 
 }
 .main-container .post-area hr {
 }
@@ -205,7 +212,8 @@ h5 {
     list-style: none;
     padding: 0;
 }
-.main-container .post p {
+.main-container .post li {
+    margin-bottom: 3ex;
 }
 .main-container h2 {
 }
