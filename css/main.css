@@ -201,6 +201,8 @@ h5 {
 .main-container .post-area hr {
 }
 .main-container .post {
+    list-style: none;
+    padding: 0;
 }
 .main-container .post p {
 }
@@ -214,6 +216,27 @@ h5 {
 }
 .main-container .post-footer a {
 }
+
+.button-group li {
+    float: left;
+    position: relative;
+    display: block;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-right: 1px solid #e5e5e5;
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+    padding: 1ex;
+}
+
+.button-group li:first-child {
+    border-left: 1px solid #e5e5e5;
+}
+
+.fa {
+    color: #ccc;
+}
+
 .main-container time {
 }
 .main-container .bottom-button {
