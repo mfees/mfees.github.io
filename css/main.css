@@ -244,14 +244,19 @@ h5 {
 .main-container .button-text {
 }
 .main-container footer {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
 }
 .main-container .footer--left-side {
+    float: left;
 }
 .main-container .footer--left-side img {
 }
-.main-container .footer--right-right {
+.main-container .footer--right-side {
+    float: left;
 }
-.main-container .footer--right-right p {
+.main-container .footer--right-side p {
 }
 .main-container h5 {
 }
