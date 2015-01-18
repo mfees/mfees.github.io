@@ -145,6 +145,7 @@ h5 {
     font-size: 1.8ex;
     font-weight: 700;
     text-transform: uppercase; 
+    margin-top: 5ex;
     margin-bottom: .5ex;
 }
 
@@ -268,8 +269,9 @@ h5 {
 .main-container .bottom-button {
     background-color: #56AAC3;
     border-radius: .8ex;
-    margin: 7em auto;
-    padding: 1.2ex;
+    margin: 4.5em 0em 6em 0em;
+    padding: 1ex;
+    width: 92%;
 }
 
 .main-container .button-text {
@@ -283,7 +285,7 @@ h5 {
 }
 
 .main-container footer {
-    width: 80%;
+    width: 83%;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -306,6 +308,7 @@ h5 {
 
 .main-container .footer--right-side p {
     color: #aaa;
+    margin-top: 1ex;
 }
 
 .main-container h5 {
