@@ -97,14 +97,59 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+p {
+    color: #666;
+    font-family: 'PT Serif', serif;
+    font-size: 1.8ex;
+    line-height: 3.6ex;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 2ex;
+    font-weight: 700;
+    text-transform: uppercase;   
+}
+
+h2 {
+    color: #333;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 5ex;
+    font-weight: 900;
+}
+
+h3 {
+    color: #999;
+    font-family: 'PT Serif' serif;
+    font-size: 1.8ex;
+    line-height: 3.6ex;
+    border-left: .3ex solid #e5e5e5;
+    padding-left: 2ex;
+}
+
+h4 {
+    color: #bbb;
+    font-family: 'Open Sans' sans-serif;
+    font-size: 2ex;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #bbb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.8ex;
+    font-weight: 700;
+    text-transform: uppercase; 
+}
+
 .banner {
     background-image: url(http://lorempixel.com/1500/600/);
     background-position: 0 0;
     background-size: cover;
     height: 28em;
     width: 100%;
-    position: relative;
-    z-index: 2;
 }
 
 .banner img {
@@ -112,20 +157,28 @@ textarea {
 
 .main-container {
     width: 80%;
-    margin: 0 auto;
+    margin: -4em auto;
+    position: relative;
+    z-index: 4;
 }
-.main-container .content-area {
+.main-container .sidebar-content {
     width: 25%;
     float: left;
     box-sizing: border-box;
+    padding-right: 5em;
 }
-.main-container .content-area img {
+.sidebar-content .logo-container {
+    margin-bottom: 20px;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
 }
-.main-container .content-area p {
+.main-container .sidebar-content p {
+    color: #aaa;
 }
-.main-container .content-area hr {
+.main-container .sidebar-content hr {
 }
-.main-container .content-area h4 {
+.main-container .sidebar-content h4 {
 }
 .main-container h1 {
 }
@@ -143,6 +196,7 @@ textarea {
     width: 75%;
     float: left;
     box-sizing: border-box;
+    margin-top: 6em;
 }
 .main-container .post-area hr {
 }
