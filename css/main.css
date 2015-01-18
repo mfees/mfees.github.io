@@ -142,6 +142,7 @@ h5 {
     font-size: 1.8ex;
     font-weight: 700;
     text-transform: uppercase; 
+    margin-bottom: .5ex;
 }
 
 .banner {
@@ -234,14 +235,19 @@ h5 {
 }
 
 .fa {
-    color: #ccc;
+    color: #ddd;
+    padding-right: .5em;
 }
 
 .main-container time {
 }
 .main-container .bottom-button {
+    background-color: #56AAC3;
+    border-radius: .8ex;
+    padding: 1.5ex;
 }
 .main-container .button-text {
+    margin: 0;
 }
 .main-container footer {
     width: 80%;
@@ -249,26 +255,39 @@ h5 {
     margin: 0 auto;
 }
 .main-container .footer--left-side {
+    width: 20%;
     float: left;
 }
 .main-container .footer--left-side img {
+    width: 30%;
+    display: block;
+    margin: 1.8em auto;
 }
 .main-container .footer--right-side {
+    width: 80%;
     float: left;
 }
 .main-container .footer--right-side p {
+    color: #aaa;
 }
 .main-container h5 {
 }
 .main-container .footer--social-container {
+    margin-top: 2em;
+    margin-bottom: 1.5em;
 }
 .main-container .footer--social-container icon {
 }
 .main-container .footer--social-container a {
+    text-decoration: none;
 }
 .main-container .copyright {
 }
 .main-container .copyright p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7ex;
+    color: #DDD;
+    line-height: 6ex;
 }
 
 /* ==========================================================================
