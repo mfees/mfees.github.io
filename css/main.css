@@ -261,53 +261,68 @@ h5 {
 }
 
 .fa {
-    color: #ddd;
+    color: #d9d9d9;
     padding-right: .3em;
+}
+
+.fa:hover {
+    color: #ccc;
 }
 
 .main-container time {
 }
-.main-container .bottom-button {
+.bottom-button {
     background-color: #56AAC3;
     border-radius: .8ex;
     margin: 4.5em 0em 6em 0em;
-    padding: 1ex;
+    padding: 1.3ex;
     width: 92%;
 }
 
-.main-container .button-text {
+.bottom-button:hover {
+    background-color: #215e70;
+}
+
+.button-text {
     font-family: 'Open Sans' sans-serif;
-    font-size: 1.7ex;
+    font-size: 1.5ex;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     text-align: center;
     margin: 0;
+    display: block;
+    text-decoration: none;
 }
 
-.main-container footer {
-    width: 83%;
+.page-footer {
+    clear: both;
+    border-top: .2ex solid #eee;
+}
+
+.footer-container {
+    width: 65%;
     overflow: hidden;
-    margin: 0 auto;
+    margin: 1.5em auto;
 }
 
-.main-container .footer--left-side {
+.footer--left-side {
     width: 20%;
     float: left;
 }
 
-.main-container .footer--left-side img {
+.footer--left-side img {
     width: 30%;
     display: block;
     margin: 3em auto;
 }
 
-.main-container .footer--right-side {
+.footer--right-side {
     width: 80%;
     float: left;
 }
 
-.main-container .footer--right-side p {
+.footer--right-side p {
     color: #aaa;
     margin-top: 1ex;
     margin-bottom: 4.5ex;
@@ -315,19 +330,19 @@ h5 {
 
 .main-container h5 {
 }
-.main-container .footer--social-container {
+.footer--social-container {
     margin-bottom: 1.5em;
 }
 
-.main-container .footer--social-container icon {
+.footer--social-container icon {
 }
-.main-container .footer--social-container a {
+.footer--social-container a {
     text-decoration: none;
 }
 
-.main-container .copyright {
+.copyright {
 }
-.main-container .copyright p {
+.copyright p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.7ex;
     color: #DDD;
