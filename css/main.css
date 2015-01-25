@@ -151,8 +151,8 @@ h5 {
 }
 
 .banner {
-    background-image: url(http://lorempixel.com/1500/600/);
-    background-position: 0 0;
+    background-image: url(/img/_DSC0091.jpg);
+    background-position: 0 49%;
     background-size: cover;
     height: 30em;
     width: 100%;
