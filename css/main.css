@@ -170,6 +170,11 @@ h5 {
     padding-right: 3.1em;
 }
 
+.sidebar-content h1 a {
+    color: #f5c6b2;
+    text-decoration: none;
+}
+
 .sidebar-content .logo-container {
     margin-bottom: 2em;
     -webkit-box-sizing: content-box;
